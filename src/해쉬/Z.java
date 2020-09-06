@@ -55,7 +55,7 @@ public class Z {
         }
         if (hs.get(gems[j]) == 2) {
         	j++;
-			if ((--i)-j < min) {
+			if ((--i)-j < min ) {
 				min = i - j;
     			minI = i+1;
     			minJ = j+1;
